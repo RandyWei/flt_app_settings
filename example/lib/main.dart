@@ -32,7 +32,25 @@ class _MyAppState extends State<MyApp> {
                   FltAppSettings.openAppSettings();
                 },
                 child: Text("打开设置"),
-              )
+              ),
+              RaisedButton(
+                onPressed: () {
+                  FltAppSettings.openLocationSettings();
+                },
+                child: Text("openLocationSettings"),
+              ),
+              RaisedButton(
+                onPressed: () {
+                  FltAppSettings.openWIFISettings();
+                },
+                child: Text("openWIFISettings"),
+              ),
+              RaisedButton(
+                onPressed: () {
+                  FltAppSettings.openSecuritySettings();
+                },
+                child: Text("openSecuritySettings"),
+              ),
             ],
           ),
         ),
