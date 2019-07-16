@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               RaisedButton(
                 onPressed: () {
-                  FltAppSettings.openSetting();
+                  FltAppSettings.openAppSettings();
                 },
                 child: Text("打开设置"),
               )
