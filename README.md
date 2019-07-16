@@ -12,6 +12,11 @@ dependencies:
       url: git://github.com/RandyWei/flt_app_settings.git
 ```
 
+```
+导入文件
+import 'package:flt_app_settings/flt_app_settings.dart';
+```
+
 ## 示例
 ```dart
 class MyApp extends StatefulWidget {
